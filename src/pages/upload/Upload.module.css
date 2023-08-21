@@ -1,0 +1,40 @@
+.backgroundProcessing {
+  background: url("../../../public/Desktop/Background 5.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+}
+
+.background {
+  background: url("../../../public/Desktop/Background 4.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Mobile devices (320px - 480px) */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  /* Your styles for mobile devices go here */
+  .background {
+    background: url("../../../public/Mobile/Background 6.png") repeat-y top center;
+    background-size: cover;
+  }
+}
+
+/* iPads and Tablets (481px - 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .background {
+    background: url("../../../public/Mobile/Background 6.png") repeat-y top center;
+    background-size: cover;
+  }
+}
+
+/* Small screens and laptops (769px - 1440px) */
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+  /* Your styles for small screens and laptops go here */
+}

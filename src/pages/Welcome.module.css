@@ -1,0 +1,60 @@
+.background {
+  background: url("../../public/Desktop/Background 1.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.placeholderLogo {
+  width: 992px;
+  height: 396px;
+  background-color: red;
+  margin-bottom: 120px;
+}
+
+/* Mobile devices (320px - 480px) */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  /* Your styles for mobile devices go here */
+  div.placeholderLogo {
+    width: 296px;
+    height: 88px;
+    background-color: red;
+    margin-bottom: 100px;
+  }
+  .background {
+    background: url("../../public/Mobile/Background 1_no logo.png") repeat-y top center;
+    background-size: cover;
+  }
+}
+
+/* iPads and Tablets (481px - 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  div.placeholderLogo {
+    width: 400px;
+    height: 96px;
+    background-color: red;
+    margin-bottom: 10%;
+  }
+
+  .background {
+    background: url("../../public/Mobile/Background 1_no logo.png") repeat-y top center;
+    background-size: cover;
+  }
+}
+
+/* Small screens and laptops (769px - 1440px) */
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+  /* Your styles for small screens and laptops go here */
+  div.placeholderLogo {
+    width: 696px;
+    height: 288px;
+    background-color: red;
+    margin-bottom: 60px;
+  }
+}
